@@ -32,7 +32,7 @@ function BirthdayShowComp() {
 
         <button onClick={handleempty}>Clear All</button>
 
-        <button onClick={handlnavigate}>GO Filter</button>
+        <button onClick={handlnavigate}>GO</button>
       </div>
     </div>
   );
