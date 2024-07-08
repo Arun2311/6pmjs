@@ -1,17 +1,10 @@
-import React, { Component } from "react";
+import React from 'react'
+import { useFetch } from './hook/useFetch'
 
+export default function About() {
 
-class About extends Component{
-    render(){
-        return(
-            <div>
-
-                <h1>Phone 32782378</h1>
-                email : cbvirjen
-            </div>
-        )
-    }
+    const data  = useFetch("https://fakestoreapi.com/products")
+  return (
+    <div>About</div>
+  )
 }
-
-
-export default About
